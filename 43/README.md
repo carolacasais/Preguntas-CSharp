@@ -11,10 +11,10 @@ Which garbage collector method should you use?
 
 A. WaitForFullGCComplete()     
 B. WaitForFullGCApproach()     
-C. KeepAlive()     
+**C. KeepAlive()**     
 D. WaitForPendingFinalizers()     
 
-CORRECT ANSWER: C    
+**CORRECT ANSWER: C**    
 EXPLANATION: The GC.KeepAlive method references the specified object, which makes it ineligible for garbage collection from
 the start of the current routine to the point where this method is called.
 The purpose of the KeepAlive method is to ensure the existence of a reference to an object that is at risk of
