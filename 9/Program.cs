@@ -4,7 +4,6 @@ namespace _9
 {
     class Program
     {
-        //enum Cardinales {North, South, East, West};
         static void Main(string[] args)
         {
             public enum Compass
@@ -26,9 +25,8 @@ namespace _9
             {
                 var location = new Location { Label = "Test", Direction = Compass.West };
                 Console.WriteLine(WriteObject(location,
-                // AQUI INSERTAR CODIGO
-                New DataContractJsonSerializer(typeof(Location))
-                ));
+                New DataContractJsonSerializer(typeof(Location)) // AQUI INSERTAR CODIGO
+                )); 
             }
         }
     }
