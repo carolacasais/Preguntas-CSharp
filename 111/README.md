@@ -15,7 +15,10 @@ B. IEnumerable
 C. IDisposable   
 D. IComparable   
 
-**CORRECT ANSWER: BC**
+<p>**CORRECT ANSWER: BC**</p> <br>
+<p>ENLACE DE REFERENCIA: <br>
+https://docs.microsoft.com/es-es/dotnet/api/system.collections.generic.ienumerable-1?view=netcore-3.1 <br>
+https://docs.microsoft.com/es-es/dotnet/api/system.idisposable?view=netcore-3.1</p>
 
 
 
