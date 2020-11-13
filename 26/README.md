@@ -18,3 +18,7 @@ split bar between panes or scroll to view content.)
 
 ![imagen](img1.png)
 
+Enlaces de referencia:   
+- https://docs.microsoft.com/en-us/dotnet/api/system.net.webresponse?view=net-5.0   
+
+

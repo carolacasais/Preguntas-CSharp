@@ -7,3 +7,8 @@ The application includes the following code. (Line numbers are included for refe
 
 ![imagen](img1.png)
 
+Enlaces de referencia:  
+- https://docs.microsoft.com/es-es/dotnet/framework/wcf/feature-details/how-to-serialize-and-deserialize-json-data     
+- https://docs.microsoft.com/es-es/dotnet/api/system.runtime.serialization.datacontractserializer?view=net-5.0       
+- https://docs.microsoft.com/es-es/dotnet/framework/wcf/samples/json-serialization     
+- https://docs.microsoft.com/es-es/dotnet/api/system.runtime.serialization.json.datacontractjsonserializer.writeobject?view=net-5.0        

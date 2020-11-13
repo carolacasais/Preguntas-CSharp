@@ -4,7 +4,7 @@ namespace _77
 {
     class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             public class Product
             {
@@ -20,6 +20,6 @@ namespace _77
                 if (string.IsNullOrEmpty(Name))
                     yield return new ValidationResult("Product Od is required.", new[] {"Name"});
             }
-        }
+        }*/
     }
 }

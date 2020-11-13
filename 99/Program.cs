@@ -6,7 +6,7 @@ namespace _99
     {
         static void Main(string[] args)
         {
-            private string GetMemberType(int memberCode)
+            /*private string GetMemberType(int memberCode)
             {
                 string memberType;
                 switch (memberCode)
@@ -23,7 +23,7 @@ namespace _99
                 }
                 return memberType;
                 }
-            }
+            }*/
         }
     }
 }

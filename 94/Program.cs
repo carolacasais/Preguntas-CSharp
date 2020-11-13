@@ -4,7 +4,7 @@ namespace _94
 {
     class Program
     {
-        static void Main(string[] args)
+        /*static void Main(string[] args)
         {
             private bool IsNull (object obj)
             {
@@ -15,6 +15,6 @@ namespace _94
                 return false;
             }
 
-        }
+        }*/
     }
 }
