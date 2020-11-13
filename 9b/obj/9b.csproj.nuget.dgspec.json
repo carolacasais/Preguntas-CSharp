@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\20610\\Examen C#\\Preguntas-CSharp\\9\\9.csproj": {}
+    "D:\\20610\\Examen C#\\Preguntas-CSharp\\9b\\9b.csproj": {}
   },
   "projects": {
-    "D:\\20610\\Examen C#\\Preguntas-CSharp\\9\\9.csproj": {
+    "D:\\20610\\Examen C#\\Preguntas-CSharp\\9b\\9b.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\20610\\Examen C#\\Preguntas-CSharp\\9\\9.csproj",
-        "projectName": "9",
-        "projectPath": "D:\\20610\\Examen C#\\Preguntas-CSharp\\9\\9.csproj",
+        "projectUniqueName": "D:\\20610\\Examen C#\\Preguntas-CSharp\\9b\\9b.csproj",
+        "projectName": "9b",
+        "projectPath": "D:\\20610\\Examen C#\\Preguntas-CSharp\\9b\\9b.csproj",
         "packagesPath": "C:\\Users\\carol\\.nuget\\packages\\",
-        "outputPath": "D:\\20610\\Examen C#\\Preguntas-CSharp\\9\\obj\\",
+        "outputPath": "D:\\20610\\Examen C#\\Preguntas-CSharp\\9b\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -22,15 +22,15 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.1"
+          "net5.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.1": {
-            "targetAlias": "netcoreapp3.1",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -41,8 +41,8 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.1": {
-          "targetAlias": "netcoreapp3.1",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",

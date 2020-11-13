@@ -1,0 +1,4 @@
+D:\20610\Examen C#\Preguntas-CSharp\9\obj\Debug\netcoreapp3.1\9.csprojAssemblyReference.cache
+D:\20610\Examen C#\Preguntas-CSharp\9\obj\Debug\netcoreapp3.1\9.AssemblyInfoInputs.cache
+D:\20610\Examen C#\Preguntas-CSharp\9\obj\Debug\netcoreapp3.1\9.AssemblyInfo.cs
+D:\20610\Examen C#\Preguntas-CSharp\9\obj\Debug\netcoreapp3.1\9.csproj.CoreCompileInputs.cache

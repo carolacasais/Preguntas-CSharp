@@ -1,0 +1,16 @@
+D:\20610\Examen C#\Preguntas-CSharp\9b\obj\Debug\net5.0\9b.csprojAssemblyReference.cache
+D:\20610\Examen C#\Preguntas-CSharp\9b\obj\Debug\net5.0\9b.GeneratedMSBuildEditorConfig.editorconfig
+D:\20610\Examen C#\Preguntas-CSharp\9b\obj\Debug\net5.0\9b.AssemblyInfoInputs.cache
+D:\20610\Examen C#\Preguntas-CSharp\9b\obj\Debug\net5.0\9b.AssemblyInfo.cs
+D:\20610\Examen C#\Preguntas-CSharp\9b\obj\Debug\net5.0\9b.csproj.CoreCompileInputs.cache
+D:\20610\Examen C#\Preguntas-CSharp\9b\bin\Debug\net5.0\9b.exe
+D:\20610\Examen C#\Preguntas-CSharp\9b\bin\Debug\net5.0\9b.deps.json
+D:\20610\Examen C#\Preguntas-CSharp\9b\bin\Debug\net5.0\9b.runtimeconfig.json
+D:\20610\Examen C#\Preguntas-CSharp\9b\bin\Debug\net5.0\9b.runtimeconfig.dev.json
+D:\20610\Examen C#\Preguntas-CSharp\9b\bin\Debug\net5.0\9b.dll
+D:\20610\Examen C#\Preguntas-CSharp\9b\bin\Debug\net5.0\ref\9b.dll
+D:\20610\Examen C#\Preguntas-CSharp\9b\bin\Debug\net5.0\9b.pdb
+D:\20610\Examen C#\Preguntas-CSharp\9b\obj\Debug\net5.0\9b.dll
+D:\20610\Examen C#\Preguntas-CSharp\9b\obj\Debug\net5.0\ref\9b.dll
+D:\20610\Examen C#\Preguntas-CSharp\9b\obj\Debug\net5.0\9b.pdb
+D:\20610\Examen C#\Preguntas-CSharp\9b\obj\Debug\net5.0\9b.genruntimeconfig.cache

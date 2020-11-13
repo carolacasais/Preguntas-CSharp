@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections;
-using System.Collections.Generic;
 using System.Runtime.Serialization;
-using System.Xml;
-using System.IO;
 using System.Runtime.Serialization.Json;
 
 namespace _9
@@ -15,6 +11,7 @@ namespace _9
             
         }
     }
+
     public enum Compass
             {
                 North,
@@ -30,13 +27,37 @@ namespace _9
                 [DataMember]
                 public Compass Direction { get; set; }
             }
-            void DoWork()
+
+            public override void WriteObject (System.Xml.XmlWriter writer, object? graph); // esto es lo que añadí para que funcione
             {
-                var location = new Location { Label = "Test", Direction = Compass.West };
-                Console.WriteLine(WriteObject(location,
-                new DataContractJsonSerializer(typeof(Location)) // ESTE ES EL CODIGO INSERTADO
-                )); 
+                
+                public class Test
+                {
+                    private void WriteObjectWithInstance(XmlObjectSerializer xm, Location graph,
+                    string fileName)
+                    {
+                        // Use either the XmlDataContractSerializer or NetDataContractSerializer,
+                        // or any other class that inherits from XmlObjectSerializer to write with.
+                        Console.WriteLine(xm.GetType());
+                        FileStream fs = new FileStream(fileName, FileMode.Create);
+                        XmlDictionaryWriter writer = XmlDictionaryWriter.CreateTextWriter(fs);
+                        xm.WriteObject(writer, graph);
+                        Console.WriteLine("Done writing {0}", fileName);
+                    }
+
+                    void DoWork() // de aqui hacia abajo está bien
+                    {
+                            var location = new Location { Label = "Test", Direction = Compass.West };
+                            Console.WriteLine(WriteObject(location,
+                            new DataContractJsonSerializer(typeof(Location)) // ESTE ES EL CODIGO INSERTADO
+                            )); 
+                    }
+
+                }
             }
+
+
+            
 }
 
 
