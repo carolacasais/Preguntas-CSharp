@@ -12,7 +12,10 @@ namespace _9
     {
         static void Main(string[] args)
         {
-            public enum Compass
+            
+        }
+    }
+    public enum Compass
             {
                 North,
                 South,
@@ -34,8 +37,6 @@ namespace _9
                 new DataContractJsonSerializer(typeof(Location)) // ESTE ES EL CODIGO INSERTADO
                 )); 
             }
-        }
-    }
 }
 
 
