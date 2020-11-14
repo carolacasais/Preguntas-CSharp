@@ -61,3 +61,11 @@ namespace _9
 }
 
 
+ var location = new Location { Label = "Test", Direction = Compass.West };
+            WriteLine(WriteObject(location,
+            new DataContractJsonSerializer(typeof(Location)) // ESTE ES EL CODIGO INSERTADO y el correcto :)
+            //new DataContractSerializer(typeof(Location)) // No es JSON - No funciona - Serializa una instancia de un tipo en un flujo o en un documento XML
+            //new XmlSerializer(typeof(Location)) // No hereda de XmlObjectSerializer
+            //new System.Runtime.Serialization.NetDataContractSerializer() // No hereda de XmlObjectSerializer
+));
+

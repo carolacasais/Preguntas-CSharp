@@ -17,7 +17,10 @@ namespace _9b
         {
             var location = new Location { Label = "Test", Direction = Compass.West };
             Console.WriteLine(WriteObject(location,
-            new DataContractJsonSerializer(typeof(Location)) // ESTE ES EL CODIGO INSERTADO
+            new DataContractJsonSerializer(typeof(Location)) // RESPUESTA CORRECTA 
+            //new DataContractSerializer(typeof(Location)) // No es JSON - No funciona - Serializa una instancia de un tipo en un flujo o en un documento XML
+            //new XmlSerializer(typeof(Location)) // No hereda de XmlObjectSerializer
+            //new System.Runtime.Serialization.NetDataContractSerializer() // No hereda de XmlObjectSerializer // ESTE ES EL CODIGO INSERTADO
             ));
 
         }
@@ -25,9 +28,10 @@ namespace _9b
         {
             MemoryStream ms = new MemoryStream();
             miOS.WriteObject(ms, miL);
-            byte[] cadena = new byte[ms.Length];
-            ms.Read(cadena, 0, (int) ms.Length);
-            return System.Text.Encoding.Default.GetString(cadena);
+            byte[] cadena = ms.ToArray();
+            ms.Close();
+
+             return System.Text.Encoding.Default.GetString(cadena);
         }
     }
     public enum Compass
@@ -44,10 +48,6 @@ namespace _9b
         public string Label { get; set; }
         [DataMember]
         public Compass Direction { get; set; }
-
-
-
-        
 
     }
 }
