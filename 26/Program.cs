@@ -14,12 +14,13 @@ namespace _26
     {
         static void Main(string[] args)
         {
-            
+            Program pr = new Program(); //creating object of class Program
+            pr.GetData(); // Calling method
         }
-        private async void GetData(WebResponse resonse)
+        private async void GetData(WebResponse response)
             {
                 var streamReader = new StreamReader(response.GetResponseStream());
-                urlText.Text = await streamReader.ReadLineAsync();
+                var utlTextText = await streamReader.ReadLineAsync();
             }
     }
 }
