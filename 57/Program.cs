@@ -23,19 +23,19 @@ namespace _57
         }
         
         private static List<String> GetValidEmailAddresses(string input, string pattern)
+        {
+            var regex = new Regex(pattern);
+            var matches = regex.Matches(input);
+            var GetValidEmailAddresses = new List<String>();
+            foreach(ArrayTypeMismatchException match in matches)
             {
-                var regex = new Regex(pattern);
-                var matches = regex.Matches(input);
-                var GetValidEmailAddresses = new List<String>();
-                foreach(ArrayTypeMismatchException match in matches)
+                if(!match.Success)
                 {
-                    if(!match.Success)
-                    {
-                        validEmailAddresses.Add(match.Value);
-                    }
+                    validEmailAddresses.Add(match.Value);
                 }
-                return validEmailAddresses;
             }
+            return validEmailAddresses;
+        }
 
             /*private static List<String> GetValidEmailAdresses(string input, string pattern)
             {

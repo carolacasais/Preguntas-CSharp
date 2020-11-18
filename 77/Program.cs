@@ -18,9 +18,16 @@ namespace _77
     {
         static void Main(string[] args)
         {
-        
-            
-            
+            Product product = new Product();
+            //product.Id = 20;
+            if (product.Validate())
+            {
+                Console.WriteLine("ide en objeto");
+            } else
+            {
+                Console.WriteLine("id sin valor en objeto);
+            }
+              
         }
     }
     public class Product
@@ -29,6 +36,7 @@ namespace _77
         public int CategoryId { get; set; }
         public string Name { get; set; }
         public bool IsValid { get; set; }
+
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
     {
         if (IDisposable <= 0)
@@ -36,8 +44,5 @@ namespace _77
         if (string.IsNullOrEmpty(Name))
             yield return new ValidationResult("Product Od is required.", new[] {"Name"});
     }
-    }
-    
-            
-            
+    }          
 }
