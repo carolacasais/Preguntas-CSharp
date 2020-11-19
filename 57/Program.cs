@@ -17,8 +17,9 @@ namespace _57
         static void Main(string[] args)
         {
             //Console.WriteLine(GetValidEmailAddresses());
-            Program pr = new Program(); //creating object of class Program
-            pr.GetValidEmailAddresses(); // Calling method
+            //Program pr = new Program(); //creating object of class Program
+            //pr.GetValidEmailAddresses(); // Calling method
+            List<String> GetValidEmailAddresses = new List<String>();
     
 
             
