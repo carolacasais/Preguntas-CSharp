@@ -15,5 +15,5 @@
 150 - GAC, falta     
 151 - falta un metodo?   
 152 - no sé como empezar    
-153 - Hecha (pienso que está bien pero no se eejcuta)      
+153 - Hecha (pienso que está bien pero no se ejcuta)      
 154 - falta    
