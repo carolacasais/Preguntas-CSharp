@@ -15,9 +15,8 @@ B. WaitForFullGCApproach()
 D. WaitForPendingFinalizers()     
 
 **CORRECT ANSWER: C**    
-EXPLANATION: The GC.KeepAlive method references the specified object, which makes it ineligible for garbage collection from
-the start of the current routine to the point where this method is called.
-The purpose of the KeepAlive method is to ensure the existence of a reference to an object that is at risk of
-being prematurely reclaimed by the garbage collector.
-The KeepAlive method performs no operation and produces no side effects other than extending the lifetime of
-the object passed in as a parameter.
+Hace referencia al objeto especificado, convirtiéndolo en un objeto no válido para la recolección de elementos no utilizados desde el principio de la rutina actual hasta el momento en que se llamó a este método.
+
+Enlaces de referencia:   
+https://docs.microsoft.com/es-es/dotnet/api/system.gc.collect?view=net-5.0    
+https://docs.microsoft.com/es-es/dotnet/api/system.gc.keepalive?view=net-5.0    

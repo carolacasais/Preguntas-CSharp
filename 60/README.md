@@ -16,6 +16,10 @@ D. RemoveMemoryPressure()
 
 **Correct Answer: B**
 
+Enlace de referencia:    
+https://docs.microsoft.com/es-es/dotnet/api/system.gc.collect?view=net-5.0     
+https://docs.microsoft.com/es-es/dotnet/api/system.gc.suppressfinalize?view=net-5.0           
+
 
 
 
