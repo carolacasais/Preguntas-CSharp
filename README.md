@@ -1,19 +1,19 @@
 # Resumen preguntas C#
 
-9 - hecha   
+09 - Hecha   
 26 - falta un metodo?   
-43 - hecha    
+43 - Hecha    
 57 - falta un metodo?    
-60 - hecha       
-66 - hecha        
-67 - hecha, ERRATA       
+60 - Hecha       
+66 - Hecha        
+67 - Hecha, ERRATA       
 77 - IDisposable. falta añadir algo pero no se que   
 94 - falta un método?   
 99 - falta     
-111 - hecha    
+111 - Hecha    
 149 - ListEmployee> falta un metodo?      
 150 - GAC, falta     
 151 - falta un metodo?   
 152 - no sé como empezar    
-153 - hecha (pienso que está bien pero no se eejcuta)      
+153 - Hecha (pienso que está bien pero no se eejcuta)      
 154 - falta    
