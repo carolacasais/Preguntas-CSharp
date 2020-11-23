@@ -6,12 +6,6 @@ namespace _153
     {
         static void Main(string[] args)
         {
-            Program pr = new Program();
-            pr.DoWork();
-        }
-
-        public void DoWork();
-        {
             Int32 returnStatus = Int32.MinValue;
             switch (status)
             {
