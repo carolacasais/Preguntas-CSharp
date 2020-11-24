@@ -3,3 +3,14 @@ D:\20610\Examen C#\Preguntas-CSharp\152\obj\Debug\net5.0\152.GeneratedMSBuildEdi
 D:\20610\Examen C#\Preguntas-CSharp\152\obj\Debug\net5.0\152.AssemblyInfoInputs.cache
 D:\20610\Examen C#\Preguntas-CSharp\152\obj\Debug\net5.0\152.AssemblyInfo.cs
 D:\20610\Examen C#\Preguntas-CSharp\152\obj\Debug\net5.0\152.csproj.CoreCompileInputs.cache
+D:\20610\Examen C#\Preguntas-CSharp\152\bin\Debug\net5.0\152.exe
+D:\20610\Examen C#\Preguntas-CSharp\152\bin\Debug\net5.0\152.deps.json
+D:\20610\Examen C#\Preguntas-CSharp\152\bin\Debug\net5.0\152.runtimeconfig.json
+D:\20610\Examen C#\Preguntas-CSharp\152\bin\Debug\net5.0\152.runtimeconfig.dev.json
+D:\20610\Examen C#\Preguntas-CSharp\152\bin\Debug\net5.0\152.dll
+D:\20610\Examen C#\Preguntas-CSharp\152\bin\Debug\net5.0\ref\152.dll
+D:\20610\Examen C#\Preguntas-CSharp\152\bin\Debug\net5.0\152.pdb
+D:\20610\Examen C#\Preguntas-CSharp\152\obj\Debug\net5.0\152.dll
+D:\20610\Examen C#\Preguntas-CSharp\152\obj\Debug\net5.0\ref\152.dll
+D:\20610\Examen C#\Preguntas-CSharp\152\obj\Debug\net5.0\152.pdb
+D:\20610\Examen C#\Preguntas-CSharp\152\obj\Debug\net5.0\152.genruntimeconfig.cache
