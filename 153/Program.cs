@@ -7,6 +7,8 @@ using System.IO;
 using System.Runtime.Serialization.Json;
 using System.Net;
 using System.Web;
+using System.Reflection;
+using System.Collections.ObjectModel;
 
 namespace _153
 {
@@ -14,8 +16,9 @@ namespace _153
     {
         static void Main(string[] args)
         {
-            //status = 
+            
             Int32 returnStatus = Int32.MinValue;
+            var status = Convert.ToString(returnStatus); //esto lo añadi
             switch (status)
             {
                 case "Active":
@@ -28,7 +31,7 @@ namespace _153
                 returnStatus = -1;
                 break;
             }
-            return returnStatus;
-        }
+            Console.WriteLine(returnStatus); //esto era return en vez de cw pero si no no ejecutaba
+        }// da siempre -1
     }
 }
