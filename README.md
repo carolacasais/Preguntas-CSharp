@@ -14,6 +14,6 @@
 149 - ListEmployee> falta un metodo?      
 150 - GAC, falta     
 151 - falta un metodo?   
-152 - Hecha    (el resultado al ejecutar es el correcto?)
+152 - Hecha    (el resultado al ejecutar es el correcto?)       
 153 - Hecha    (pienso que está bien pero no se ejcuta)      
 154 - hay que completarla  
