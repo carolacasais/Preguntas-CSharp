@@ -14,6 +14,7 @@ namespace _153
     {
         static void Main(string[] args)
         {
+            //status = 
             Int32 returnStatus = Int32.MinValue;
             switch (status)
             {
@@ -26,7 +27,6 @@ namespace _153
                 default:
                 returnStatus = -1;
                 break;
-                
             }
             return returnStatus;
         }
