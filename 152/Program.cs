@@ -18,8 +18,8 @@ namespace _152
             
             var page = items.Skip(20).Take(10);
             //var page = items.Skip(20).Take(10).ToList();
-            foreach (var page in items)
-                Console.WriteLine(items);
+            foreach (var items in page)
+                Console.WriteLine(page);
 
 
             /*
