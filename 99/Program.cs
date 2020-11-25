@@ -6,7 +6,8 @@ namespace _99
     {
         static void Main(string[] args)
         {
-
+            Program pr = new Program();
+            pr.GetMemberType();
         }
 
         private string GetMemberType(int memberCode)

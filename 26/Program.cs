@@ -7,6 +7,8 @@ using System.IO;
 using System.Runtime.Serialization.Json;
 using System.Net;
 using System.Web;
+using System.Data.SqlClient;
+using System.Threading;
 
 namespace _26
 {
@@ -14,8 +16,12 @@ namespace _26
     {
         static void Main(string[] args)
         {
-            Program pr = new Program(); //creating object of class Program
-            pr.GetData(); // Calling method
+            //Program p = new Program(); //creating object of class Program
+            //p.GetData(new object()); // Calling method
+            //GetData();
+            var response = GetData(WebResponse);
+            Console.WriteLine(response.Result);
+            
         }
         private async void GetData(WebResponse response)
             {
