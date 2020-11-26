@@ -1,7 +1,7 @@
 # Resumen preguntas C#
 
 09 - Hecha   
-26 - falta un metodo?   
+26 - Hecha  
 43 - Hecha    
 57 - falta un metodo?    
 60 - Hecha       
