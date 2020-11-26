@@ -17,3 +17,7 @@
 152 - Hecha     
 153 - Hecha           
 154 - hay que completarla  
+
+
+Notas:
+la 26 la solucion correcta varia un poco d la de la bateria, aunq las 3 respuestas son las mismas
