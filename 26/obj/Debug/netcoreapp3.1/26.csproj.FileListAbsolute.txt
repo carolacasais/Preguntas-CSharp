@@ -1,0 +1,13 @@
+D:\20610\Examen C#\Preguntas-CSharp\26\obj\Debug\netcoreapp3.1\26.csprojAssemblyReference.cache
+D:\20610\Examen C#\Preguntas-CSharp\26\obj\Debug\netcoreapp3.1\26.AssemblyInfoInputs.cache
+D:\20610\Examen C#\Preguntas-CSharp\26\obj\Debug\netcoreapp3.1\26.AssemblyInfo.cs
+D:\20610\Examen C#\Preguntas-CSharp\26\obj\Debug\netcoreapp3.1\26.csproj.CoreCompileInputs.cache
+D:\20610\Examen C#\Preguntas-CSharp\26\bin\Debug\netcoreapp3.1\26.exe
+D:\20610\Examen C#\Preguntas-CSharp\26\bin\Debug\netcoreapp3.1\26.deps.json
+D:\20610\Examen C#\Preguntas-CSharp\26\bin\Debug\netcoreapp3.1\26.runtimeconfig.json
+D:\20610\Examen C#\Preguntas-CSharp\26\bin\Debug\netcoreapp3.1\26.runtimeconfig.dev.json
+D:\20610\Examen C#\Preguntas-CSharp\26\bin\Debug\netcoreapp3.1\26.dll
+D:\20610\Examen C#\Preguntas-CSharp\26\bin\Debug\netcoreapp3.1\26.pdb
+D:\20610\Examen C#\Preguntas-CSharp\26\obj\Debug\netcoreapp3.1\26.dll
+D:\20610\Examen C#\Preguntas-CSharp\26\obj\Debug\netcoreapp3.1\26.pdb
+D:\20610\Examen C#\Preguntas-CSharp\26\obj\Debug\netcoreapp3.1\26.genruntimeconfig.cache
