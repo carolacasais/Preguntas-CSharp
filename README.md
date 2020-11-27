@@ -3,20 +3,20 @@
 09 - Hecha   
 26 - Hecha  
 43 - Hecha    
-57 - falta un metodo?    
+57 - Hecha, ERRATA! La respuesta correcta es A y C (no ByC)    
 60 - Hecha       
 66 - Hecha        
-67 - Hecha, ERRATA       
-77 - IDisposable. falta añadir algo pero no se que   
-94 - falta un método?   
-99 - falta     
+67 - Hecha, ERRATA!       
+77** - IDisposable. falta añadir algo pero no se que   
+94** - falta un método?   
+99** - falta     
 111 - Hecha    
-149 - ListEmployee> falta un metodo?      
-150 - GAC, falta     
-151 - falta un metodo?   
+149** - ListEmployee> falta un metodo?      
+150** - GAC, falta     
+151** - falta un metodo?   
 152 - Hecha     
 153 - Hecha           
-154 - hay que completarla  
+154** - hay que completarla  
 
 
 Notas:
