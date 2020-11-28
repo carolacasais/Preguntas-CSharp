@@ -1,0 +1,13 @@
+D:\20610\Examen C#\Preguntas-CSharp\77\bin\Debug\netcoreapp3.1\77.exe
+D:\20610\Examen C#\Preguntas-CSharp\77\bin\Debug\netcoreapp3.1\77.deps.json
+D:\20610\Examen C#\Preguntas-CSharp\77\bin\Debug\netcoreapp3.1\77.runtimeconfig.json
+D:\20610\Examen C#\Preguntas-CSharp\77\bin\Debug\netcoreapp3.1\77.runtimeconfig.dev.json
+D:\20610\Examen C#\Preguntas-CSharp\77\bin\Debug\netcoreapp3.1\77.dll
+D:\20610\Examen C#\Preguntas-CSharp\77\bin\Debug\netcoreapp3.1\77.pdb
+D:\20610\Examen C#\Preguntas-CSharp\77\obj\Debug\netcoreapp3.1\77.csprojAssemblyReference.cache
+D:\20610\Examen C#\Preguntas-CSharp\77\obj\Debug\netcoreapp3.1\77.AssemblyInfoInputs.cache
+D:\20610\Examen C#\Preguntas-CSharp\77\obj\Debug\netcoreapp3.1\77.AssemblyInfo.cs
+D:\20610\Examen C#\Preguntas-CSharp\77\obj\Debug\netcoreapp3.1\77.csproj.CoreCompileInputs.cache
+D:\20610\Examen C#\Preguntas-CSharp\77\obj\Debug\netcoreapp3.1\77.dll
+D:\20610\Examen C#\Preguntas-CSharp\77\obj\Debug\netcoreapp3.1\77.pdb
+D:\20610\Examen C#\Preguntas-CSharp\77\obj\Debug\netcoreapp3.1\77.genruntimeconfig.cache
