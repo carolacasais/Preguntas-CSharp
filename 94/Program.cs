@@ -16,8 +16,10 @@ namespace _94
     {
         static void Main(string[] args)
         {
+            var obj = 0;
             Program pr = new Program();
-            pr.IsNull();
+            pr.IsNull(obj);
+            Console.WriteLine(IsNull(obj));
         }
         private bool IsNull (object obj)
             {

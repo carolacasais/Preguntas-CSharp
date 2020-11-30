@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 
 
-
 namespace _77
 {
     class Program
@@ -11,7 +10,7 @@ namespace _77
         static void Main(string[] args)
         {
             Product product = new Product();
-            var result = Product.Validate(validationContext);
+            var result = Product.Validate();
 
         }
     }
@@ -24,9 +23,6 @@ namespace _77
 
         public IEnumerable<ValidationResult> Validate(ValidationContext validationContext)
         {
-            //Product product = new Product();
-
-
             if (Id <= 0)
                 yield return new ValidationResult("Product Od is required.", new[] { "Id" });
             if (string.IsNullOrEmpty(Name))
