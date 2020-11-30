@@ -16,18 +16,51 @@ namespace _94
     {
         static void Main(string[] args)
         {
-            var obj = 0;
-            Program pr = new Program();
-            pr.IsNull(obj);
-            Console.WriteLine(IsNull(obj));
+            ClaseEvaluar clase = new ClaseEvaluar();
+            new Program().IsNullA(clase);
+            new Program().IsNullB(clase);
+            new Program().IsNullC(clase);
+            new Program().IsNullD(clase);
         }
-        private bool IsNull (object obj)
+        private bool IsNullA(object obj)
+        {
+            if (obj = null)
             {
-                if (obj == null)
-                {
-                    return true;
-                }
-                return false;
+                return true;
             }
+            return false;
+        }
+
+        private bool IsNullB(object obj)
+        {
+            if (null)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private bool IsNullC(object obj)
+        {
+            if (obj == 0)
+            {
+                return true;
+            }
+            return false;
+        }
+
+        private bool IsNullD(object obj)
+        {
+            if (obj == null)
+            {
+                return true;
+            }
+            return false;
+        }
+    }
+
+    public class ClaseEvaluar
+    {
+
     }
 }
